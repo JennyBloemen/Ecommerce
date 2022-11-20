@@ -3,9 +3,20 @@
 <h3>Description</h3>
 MuSearch is a place where you can find any song you can think of. Sometimes we hear a little part of a song and we like it, but we don’t know the name. In the moment we use Musearch, you type the part of the song you remember and then easily enjoy the lyrics and the song on your own or with your family and friends.
 <br>
-<h3>Project Requirements</h3>
+<h3>Installation</h3>
 <ul>
-  <li></li>
+  <li>Naviagate to the cloned repository in their directory, and then run npm install to install node.js.
+
+Include the user's MYSQL user and password information in the .env file.
+
+To connect to the database, run the following commands:
+
+mysql -u root -p
+Type in the user's MYSQL password
+source db/schema.sql;
+npm run seed
+Run npm start to run the app and start the server. The user can then navigate to the port displayed in the terminal or use Insomnia.</li>
+
   <li></li>
   <li></li>
   <li></li>
@@ -51,4 +62,3 @@ THEN </li>
   <li>YouTube</li>
   <li>Post Scribe JS Library</li>
 </ul>
-  
