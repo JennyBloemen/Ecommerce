@@ -1,9 +1,7 @@
 const router = require("express").Router();
 const { Category, Product } = require("../../models");
 
-// The `/api/categories` endpoint
-
-// finds all categories and includes its associated Products
+// Route to find all categories including associated products
 router.get("/", async (req, res) => {
   try {
     const categoryData = await Category.findAll({
@@ -43,7 +41,7 @@ router.post("/", async (req, res) => {
 });
 
 // updates a category by its `id` value
-router.put("/:id", async (req, res) => {
+router.put("/:id", (req, res) => {
   Category.update(
     {
       category_name: req.body.category_name,

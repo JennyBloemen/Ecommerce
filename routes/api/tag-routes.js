@@ -52,7 +52,7 @@ router.put("/:id", (req, res) => {
     }
   )
     .then((update) => {
-      res.json(`id:$req.params.id} has been updated`);
+      res.json(`id:${req.params.id} has been updated`);
     })
     .catch((err) => {
       res.json(err);
