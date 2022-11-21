@@ -32,8 +32,8 @@ This application is a backend service for an e-commerce site that involves the u
 <br>
 <h3>Links</h3>
   <ul>
-    <li>Walkthrough Video: </li>
-    <li>GitHub Repo: </li>
+    <li>Walkthrough Video: https://drive.google.com/drive/folders/1Rp_GRTSu81jsjfT3v_JAzkE27qCIPLD4</li>
+    <li>GitHub Repo: git@github.com:JennyBloemen/Ecommerce.git</li>
   </ul>
 
 <br>
